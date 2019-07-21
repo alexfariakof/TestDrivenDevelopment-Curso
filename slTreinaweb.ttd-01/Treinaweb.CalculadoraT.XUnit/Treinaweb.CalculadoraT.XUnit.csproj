@@ -62,7 +62,9 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="TestCalculadora.cs" />
+    <Compile Include="DividirTest.cs" />
+    <Compile Include="SomaTest.cs" />
+    <Compile Include="SubtrairTest.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>

@@ -35,13 +35,21 @@ namespace Treinaweb.Calculadora.Util
 
         public int Mutiplicar(int a, int b)
         {
-            throw new ArgumentOutOfRangeException();
+            throw new NotImplementedException();
         }
 
 
-        public int Dicidir (int a, int b)
+        public int Dividir (int a, int b)
         {
-            throw new NotImplementedException();
+            if ((a < _limiteMinimo) || (b < _limiteMinimo))
+            {
+                throw new ArgumentOutOfRangeException("Argumento está abaixo do limite mínimo.");
+            }
+
+            if (b == 0)
+                throw new DivideByZeroException("O Segundo argumento não pode ser zero.");
+
+            return a / b;            
         }
     }
 }
