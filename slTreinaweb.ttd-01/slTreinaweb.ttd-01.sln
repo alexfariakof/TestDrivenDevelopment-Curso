@@ -1,0 +1,47 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.26228.92
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Treinaweb.Calculadora.Util", "Treinaweb.Calculadora.Util\Treinaweb.Calculadora.Util.csproj", "{EB1E7D19-F9C8-4A87-8691-F4B024E3B3C0}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Tests", "Tests", "{D0065F77-D23E-4B00-8538-25310C8CEBA0}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Treinaweb.Calculadora.MSTests", "Treinaweb.Calculadora.MSTests\Treinaweb.Calculadora.MSTests.csproj", "{0CFF7404-FF50-4668-8763-F61C1C1A52DE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Treinaweb.CalculadoraT.NUnit", "Treinaweb.CalculadoraT.NUnit\Treinaweb.CalculadoraT.NUnit.csproj", "{D263D839-421B-4346-BA43-BEB6159A4C12}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Treinaweb.CalculadoraT.XUnit", "Treinaweb.CalculadoraT.XUnit\Treinaweb.CalculadoraT.XUnit.csproj", "{5DB4A08F-BDE9-4B16-A721-706F5BC657E8}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{EB1E7D19-F9C8-4A87-8691-F4B024E3B3C0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EB1E7D19-F9C8-4A87-8691-F4B024E3B3C0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EB1E7D19-F9C8-4A87-8691-F4B024E3B3C0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EB1E7D19-F9C8-4A87-8691-F4B024E3B3C0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0CFF7404-FF50-4668-8763-F61C1C1A52DE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0CFF7404-FF50-4668-8763-F61C1C1A52DE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0CFF7404-FF50-4668-8763-F61C1C1A52DE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0CFF7404-FF50-4668-8763-F61C1C1A52DE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D263D839-421B-4346-BA43-BEB6159A4C12}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D263D839-421B-4346-BA43-BEB6159A4C12}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D263D839-421B-4346-BA43-BEB6159A4C12}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D263D839-421B-4346-BA43-BEB6159A4C12}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5DB4A08F-BDE9-4B16-A721-706F5BC657E8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5DB4A08F-BDE9-4B16-A721-706F5BC657E8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5DB4A08F-BDE9-4B16-A721-706F5BC657E8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5DB4A08F-BDE9-4B16-A721-706F5BC657E8}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{0CFF7404-FF50-4668-8763-F61C1C1A52DE} = {D0065F77-D23E-4B00-8538-25310C8CEBA0}
+		{D263D839-421B-4346-BA43-BEB6159A4C12} = {D0065F77-D23E-4B00-8538-25310C8CEBA0}
+		{5DB4A08F-BDE9-4B16-A721-706F5BC657E8} = {D0065F77-D23E-4B00-8538-25310C8CEBA0}
+	EndGlobalSection
+EndGlobal
