@@ -13,6 +13,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Treinaweb.CalculadoraT.NUni
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Treinaweb.CalculadoraT.XUnit", "Treinaweb.CalculadoraT.XUnit\Treinaweb.CalculadoraT.XUnit.csproj", "{5DB4A08F-BDE9-4B16-A721-706F5BC657E8}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Calculadora.WinForms", "Calculadora.WinForms\Calculadora.WinForms.csproj", "{779981F6-B0AD-41FF-802C-4848220124DD}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -35,6 +37,10 @@ Global
 		{5DB4A08F-BDE9-4B16-A721-706F5BC657E8}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{5DB4A08F-BDE9-4B16-A721-706F5BC657E8}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{5DB4A08F-BDE9-4B16-A721-706F5BC657E8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{779981F6-B0AD-41FF-802C-4848220124DD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{779981F6-B0AD-41FF-802C-4848220124DD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{779981F6-B0AD-41FF-802C-4848220124DD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{779981F6-B0AD-41FF-802C-4848220124DD}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
