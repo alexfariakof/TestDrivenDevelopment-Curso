@@ -63,6 +63,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="DividirTest.cs" />
+    <Compile Include="MultiplicarTest.cs" />
     <Compile Include="SomaTest.cs" />
     <Compile Include="SubtrairTest.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
